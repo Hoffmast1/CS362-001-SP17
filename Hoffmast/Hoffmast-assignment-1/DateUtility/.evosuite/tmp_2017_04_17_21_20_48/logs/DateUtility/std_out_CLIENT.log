@@ -1,0 +1,72 @@
+* Starting client
+* Connecting to master process on port 17263
+* Analyzing classpath: 
+  - C:\Users\Stephen\Desktop\DateUtility\target\test-classes
+  - C:\Users\Stephen\Desktop\DateUtility\target\classes
+  - C:\Users\Stephen\.m2\repository\junit\junit\4.12\junit-4.12.jar
+  - C:\Users\Stephen\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class DateUtility
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 104
+  - Branch 19
+  - Exception 0
+  - MutationFactory 372
+  - Output 2
+  - Method 10
+  - MethodNoException 10
+  - CBranchFitnessFactory 19
+* Using seed 1492489250140
+* Starting evolution
+* Search finished after 66s and 2135 generations, 481452 statements, best individual has fitness: 17.40909090909091
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 90%
+* Total number of goals: 104
+* Number of covered goals: 94
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 79%
+* Total number of goals: 19
+* Number of covered goals: 15
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 98%
+* Total number of goals: 372
+* Number of covered goals: 364
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 79%
+* Total number of goals: 19
+* Number of covered goals: 15
+* Generated 13 tests with total length 14
+* Resulting test suite's coverage: 93% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 12%
+* Compiling and checking tests
+* Writing JUnit test case 'DateUtility_ESTest' to C:\Users\Stephen\Desktop\DateUtility\.evosuite\tmp_2017_04_17_21_20_48\tests
+* Done!
+
